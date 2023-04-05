@@ -1,0 +1,20 @@
+{
+  "name": "fastify-typescript-es2022-template",
+  "version": "1.0.0",
+  "description": "Template for a modern Fastify Back-End Server",
+  "main": "dist/server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Filip Grocholski",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/autoload": "^5.7.1",
+    "fastify": "^4.15.0",
+    "knex": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.3"
+  }
+}
